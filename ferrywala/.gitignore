@@ -1,0 +1,18 @@
+# secrets and local data
+.env
+.env.*
+!.env.example
+uploads/
+*.log
+
+# build output
+target/
+dist/
+node_modules/
+
+# IDE / OS
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+HELP.md
